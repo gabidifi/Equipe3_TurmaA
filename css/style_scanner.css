@@ -1,0 +1,77 @@
+body {
+    font-family: 'Comic Neue', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 2rem; /* Aumenta o espaçamento da borda */
+}
+
+header {
+    display: none; /* Esconde o cabeçalho */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0.25rem solid black; /* Bordas mais grossas */
+    padding: 1rem; /* Espaçamento interno para afastar das bordas */
+    box-sizing: border-box; /* Inclui padding e border no cálculo do tamanho total */
+}
+
+main::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.0625rem;
+    height: 1.25rem;
+    background-color: black; /* Linha vertical central */
+    transform: translate(-50%, -50%);
+}
+
+main::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 0.5rem; /* Aumenta a espessura da linha horizontal vermelha */
+    background-color: red; /* Linha horizontal vermelha */
+    transform: translateX(-50%);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1.25rem; /* Posiciona o ícone da câmera na parte inferior */
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 5rem; /* Aumenta o tamanho da imagem */
+    height: auto;
+}
