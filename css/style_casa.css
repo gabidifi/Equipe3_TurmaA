@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 2.25rem; /* Aumenta o tamanho do título */
+    font-size: 2.25rem;
     color: #333;
     margin-top: 1.25rem;
 }
@@ -24,38 +24,39 @@ img {
 }
 
 p {
-    font-size: 3.5rem; /* Aumenta o tamanho do texto */
+    font-size: 3.5rem;
     color: #333;
 }
 
 b {
     display: inline-block;
-    width: 100px; /* Ajuste conforme necessário */
-    border-bottom: 2px solid #333; /* Linha abaixo do texto */
+    width: 100px;
+    border-bottom: 2px solid #333;
 }
 
 a {
     display: inline-block;
     margin: 0.625rem;
-    padding: 1.5rem 2.5rem; /* Aumenta o tamanho das caixas */
-    font-size: 2rem; /* Aumenta o tamanho das letras */
+    padding: 1.5rem 2.5rem;
+    font-size: 2rem;
     color: #fff;
-    background-color: #5c94c1; /* Cor azul ajustada */
+    background-color: #5c94c1;
     text-decoration: none;
     border-radius: 0.3125rem;
     transition: background-color 0.3s ease;
 }
 
 a:hover {
-    background-color: #4169E1; /* Cor azul ajustada */
+    background-color:  #5c94c1;
 }
 
 /* Alinhamento das caixas em duas linhas de duas */
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.25rem; /* Aumenta o espaçamento entre as caixas */
+    gap: 1.25rem;
     justify-content: center;
-    max-width: 600px; /* Ajuste conforme necessário */
+    max-width: 600px;
     margin: 0 auto;
 }
+
