@@ -51,7 +51,7 @@ a:hover {
 }
 
 /* Alinhamento das caixas em duas linhas de duas */
-.container {
+h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
