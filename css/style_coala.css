@@ -50,3 +50,7 @@ li img {
 li img:hover {
     transform: scale(1.1);
 }
+
+.button img{
+    width: 100rem;
+}

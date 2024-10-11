@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 /* Estilo para o título */
@@ -29,12 +30,14 @@ img {
 /* Estilo específico para a imagem da princesa */
 .imagem-princesa {
     border: 5px solid #dda0dd;
+    height: 10rem;
 }
 
 /* Estilo específico para a imagem do teclado */
 .imagem-teclado {
     border-radius: 10px;
     border: 2px solid #d3d3d3;
+    width: 100%;
 }
 
 /* Estilo para o parágrafo */
