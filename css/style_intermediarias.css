@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,400&display=swap');
+
+html, body {
+   width: 100%;
+   height: 100%
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+li img {
+    width: 35rem;
+    transition: transform 0.3s ease;
+}
+
+
+li img:hover {
+    transform: scale(1.1);
+}
+
+.animal-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    bottom: 0; 
+    width: 42rem; 
+}
+
+.coala-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    bottom: 0; 
+    width: 50rem; 
+}
+
+button{
+    font-size: 4.5rem;
+    font-family: 'Comic Neue', sans-serif;
+    width: 36rem;
+    height: 8rem;
+    background-color: #f5edae;
+    border-radius: 5%;
+}
+
