@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete</title>
-    <link rel="stylesheet" href="css/resset.css">
+    <title>Complete a Palavra</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style_princesa.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <h1>COMPLETE A PALAVRA</h1>
 
-    <!-- Imagem Castelo e princesa -->
     <img src="img/princesa.jpeg" alt="Imagem da Princesa" class="imagem-princesa">
+   
+    <p>A princesa está à 
+        <input type="text" id="inputText" readonly> 
+        do castelo
+    </p>
 
-    <!-- Palavra "casa" com o 's' faltando -->
-    <p>A princesa está à<a>_ _ _ _ _ _ _</a>do castelo</p>
+    <div class="keyboard-container">
+        <button class="key">I</button>
+        <button class="key">B</button>
+        <button class="key">E</button>
+        <button class="key">R</button>
+        <button class="key">A</button>
+        <button class="key">G</button>
+        <button class="key">D</button>
+        <button class="key">T</button>
+        <button class="key" id="backspace">⟲</button>
+    </div>
 
-    <!-- Teclado -->
-    <img src="img/teclado.png" alt="Imagem do Teclado" class="imagem-teclado" >
-    
 </body>
 </html>
-    
 

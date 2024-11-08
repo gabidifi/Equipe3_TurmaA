@@ -77,7 +77,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50rem; /* Mantém o tamanho original */
+    width: 60rem; /* Mantém o tamanho original */
     height: auto;
 }
 
@@ -85,7 +85,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70rem;
+    width: 63rem;
     height: auto;
     position: fixed;
     bottom: 0;
